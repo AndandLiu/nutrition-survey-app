@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".Activity.IntroActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="192dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="96dp"
+        android:scaleType="fitXY"
+        android:tint="@android:color/holo_green_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_applogof" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="430dp"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:tint="@android:color/holo_green_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_mountains" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="230dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="54dp"
+        android:fontFamily="serif"
+        android:text="Green Food Challenge"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+</android.support.constraint.ConstraintLayout>

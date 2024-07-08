@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".Activity.FoodSelectionActivity">
+
+    <TextView
+            android:layout_width="330dp"
+            android:layout_height="51dp"
+            android:text="Select foods that you ate during the day:"
+            android:textSize="17sp"
+            android:textStyle="bold" android:gravity="center_horizontal"/>
+
+    <CheckBox
+        android:id="@+id/food_beef"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Beef" />
+
+    <CheckBox
+        android:id="@+id/food_pork"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Pork" />
+
+    <CheckBox
+            android:id="@+id/food_fish"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Fish (Sushi, white fish filet, fish and chips)"/>
+
+    <CheckBox
+        android:id="@+id/food_chicken"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Chicken" />
+
+    <CheckBox
+        android:id="@+id/food_eggs"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Eggs (Quiche, hard-boiled, fried)" />
+
+    <CheckBox
+        android:id="@+id/food_beans"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Beans (Falafel, hummus, tofu)" />
+
+    <CheckBox
+        android:id="@+id/food_vegetables"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Vegetables (Pasta, veggies, soups)" />
+
+    <Button
+        android:id="@+id/food_selection_next"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="onFoodSelectionNext"
+        android:text="Next" />
+
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">GreenFoodChallenge</string>
+
+    <string name="facebook_app_id">268449460481465</string>
+    <string name="facebook_login_protocol_scheme">fb268449460481465</string>
+
+    <string name="name_label">NAME:</string>
+    <string name="age_label">AGE:</string>
+    <string name="weight_label">WEIGHT:</string>
+    <string name="gender_label">GENDER:</string>
+
+
+    <string name="user_name_hint">Enter your name here.</string>
+    <string name="user_age_hint">Enter your age here.</string>
+    <string name="user_weight_hint">Enter your weight here.</string>
+    <string name="user_gender_hint">Your Gender?</string>
+    <string name="female_radio_button">Female</string>
+    <string name="male_radio_button">Male</string>
+
+    <string name="userInfo_done_button">Done</string>
+    <string name="userInfo_about_button">About</string>
+
+    <string name="back_button_about_page">Back</string>
+
+    <string name="select_food_hint">Select foods that you ate during the day:</string>
+    <string name="beef_cb">Beef</string>
+    <string name="pork_cb">Pork</string>
+    <string name="fish_cb">Fish(Sushi,white fish filet,fish and chips)</string>
+    <string name="chicken_cb">Chicken</string>
+    <string name="eggs_cb">Eggs (Quiche, hard-boiled, fried)</string>
+    <string name="beans_cb">Beans (Falafel, hummus, tofu)</string>
+    <string name="vegi_cb">Vegetables (Pasta, veggies, soups)</string>
+    <string name="next_button">Next</string>
+
+    <string name="meal_select_food_hint">What do you have for this meal?</string>
+    <string name="meal_beef_cb">Beef</string>
+    <string name="meal_pork_cb">Pork</string>
+    <string name="meal_fish_cb">Fish(Sushi,white fish filet,fish and chips)</string>
+    <string name="meal_chicken_cb">Chicken</string>
+    <string name="meal_eggs_cb">Eggs (Quiche, hard-boiled, fried)</string>
+    <string name="meal_beans_cb">Beans (Falafel, hummus, tofu)</string>
+    <string name="meal_vegi_cb">Vegetables (Pasta, veggies, soups)</string>
+    <string name="meal_next_button">Next</string>
+
+    <string name="proportion_select_hint">Select Proportions (%)</string>
+
+    <string name="present_city_savings">PresentCitySavings</string>
+    <string name="improve_diet_button">Improve Your Diet</string>
+
+    <string name="select_prefer_plan">Select One of Your Preferred Plan</string>
+    <string name="meat_eater_button">Meat-Eater Plan</string>
+    <string name="low_meat_button">Low Meat Plan</string>
+    <string name="same_amount_meat_text">continuing to eat the same amount of meat, but changing proportions to eat less high CO2e foods</string>
+    <string name="reduce_amount_meat_text">reducing amount of meat consumed and generally eating less high CO2e foods</string>
+    <string name="submit_button">Submit</string>
+
+    <string name="low_meat_activity_text">Low Meat</string>
+    <string name="low_meat_activity_limit">You should limit your consumption of</string>
+    <string name="low_meat_activity_decrease">to decrease C02e production up to 20% </string>
+
+    <string name="meat_eater_activity_text">Meat Eater</string>
+    <string name="meat_eater_activity_limit">You should limit your consumption of</string>
+    <string name="meat_eater_activity_decrease">to decrease C02e production up to 20% </string>
+
+
+    <string name="about_text">
+
+        About the Green Food Challenge \n
+        As Canadians, we often think of ourselves as surrounded by nature and thoughtful about
+        the environment. Indeed, Vancouver has spearheaded the Greenest City Action Plan since
+        2011, with the goal of becoming the greenest city in the world by 2020.1 Of the plan’s 10
+        specific goals, and one of the goals is for a ​lighter footprint,​ reducing Vancouver\'s carbon
+        footprint by 33% over 2006 levels.\n\n
+
+        -About Carbon Emissions-\n
+        Greenhouse gasses are known to directly contribute to climate change,
+        they are measured in C02e (Carbon dioxide equivalents). In 2015 emissions in metro Vancouver
+        were about 15 million tonnes, with the avg person using about 6-8 tonnes. By 2050 we need
+        emissions to be reduced to 2 tonnes per person. 1 ton is aprox 907 kg and 1kg of beef
+        produces about 27kg of C02e
+        \n\n
+
+        -What Can We Do?-\n
+        Outside of taking transit we can change our diet. Turns out certain food produce more C02e than
+        others with lamb and Beef being the top 2 items that increase C02e. Eating less beef and
+        replacing it with other kinds of meat such as fish, pork or chicken would help. And increasing
+        the number of vegetables we consume would help a lot.
+
+    </string>
+    <string name="title_activity_improved_diet">ImprovedDietActivity</string>
+    <string name="title_activity_meat__eater">Meat_Eater</string>
+    <string name="title_activity_sign_in">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="pledge_button"> submit pledge</string>
+    <string name="view_all_pledge"> View all pledges </string>
+    <string name="create_new_pledge"> Create new pledge </string>
+    <string name="title_activity_new_pledge">NewPledgeActivity</string>
+    <string name="submit"> Submit </string>
+
+    <string-array name="view_all_pledge_filter">
+        <item> none </item>
+        <item> city </item>
+        <item> savings </item>
+    </string-array>
+    <string name="title_activity_add_meal">AddMealActivity</string>
+    <string name="lower_than_an_average_canadian">lower than an Average Canadian</string>
+    <string name="services_not_available">services not available</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

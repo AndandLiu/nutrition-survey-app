@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/progressBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.UserPledgeActivity">
+
+    <TextView
+        android:id="@+id/userPledgeTitle"
+        android:layout_width="151dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="17dp"
+        android:text="User Pledge title"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userPledgeConent"
+        android:layout_width="344dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="18dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userLogo" />
+
+    <ImageView
+        android:id="@+id/userLogo"
+        android:layout_width="106dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="139dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userPledgeTitle"
+        app:srcCompat="@drawable/user_logo_option1" />
+
+    <TextView
+        android:id="@+id/subUserContent"
+        android:layout_width="257dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="21dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userPledgeConent" />
+
+</android.support.constraint.ConstraintLayout>

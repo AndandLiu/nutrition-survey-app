@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Improved_diet_new">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Choose Your Preferred Plan"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/meat_eater_card"
+            android:layout_width="333dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="40dp"
+            android:animateLayoutChanges="false"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="98dp"
+                android:layout_height="81dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="0dp"
+                app:srcCompat="@drawable/ic_121910" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="27dp"
+                android:text="Meat Eater Plan"
+                android:textColor="?attr/colorError"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="58dp"
+                android:text="Alternating Meat Proportion"
+                android:textAlignment="viewStart"
+                android:textSize="15sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/low_meat_card"
+            android:layout_width="333dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="79dp"
+                android:layout_height="79dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@mipmap/ic_meat_salad_foreground" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="27dp"
+                android:fontFamily="sans-serif"
+                android:text="Low Meat Plan"
+                android:textColor="?android:attr/colorPressedHighlight"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="55dp"
+                android:text="More Veggies, Less Meat"
+                android:textSize="15sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/plant_based_card"
+            android:layout_width="333dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="81dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="17dp"
+                app:srcCompat="@mipmap/ic_salad_foreground" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="32dp"
+                android:text="Plant Based Plan"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="60dp"
+                android:text="Veggies Only Please!" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

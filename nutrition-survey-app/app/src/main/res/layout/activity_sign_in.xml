@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignInActivity">
+
+    <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="371dp"
+            android:layout_height="232dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="90dp"
+            android:orientation="vertical"
+            app:layout_constrainedHeight="false"
+            app:layout_constraintBottom_toTopOf="@+id/userSignInButtonSignUp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="6dp">
+
+        <EditText
+                android:id="@+id/userSignInEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:ems="10"
+                android:hint="Enter Email Here"
+                android:inputType="textEmailAddress"/>
+
+        <EditText
+                android:id="@+id/userSignInPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:ems="10"
+                android:hint="Enter Password Here"
+                android:inputType="textPassword"/>
+
+        <Button
+                android:id="@+id/userSignInButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/common_google_signin_btn_text_light_focused"
+                android:onClick="signInUser"
+                android:text="Sign In"
+                android:gravity="center"
+                android:paddingRight="50dp"/>
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/userSignInTextView"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="77dp"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="100dp"/>
+
+    <Button
+            android:id="@+id/userSignInButtonSignUp"
+            android:layout_width="256dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+            android:onClick="openRegistrationPage"
+            android:text="Don't have an account? Register here"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="64dp"/>
+
+</android.support.constraint.ConstraintLayout>

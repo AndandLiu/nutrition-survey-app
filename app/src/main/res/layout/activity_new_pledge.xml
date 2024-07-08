@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.NewPledgeActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="84dp"
+                android:text="Pledge Registration"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="31dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:ems="10"
+                    android:hint="Enter Your Name (Optional)"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/municipality"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:ems="10"
+                    android:hint="Enter Your Municipality (Optional)"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/pledgeKg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:ems="10"
+                    android:hint="Enter Your Pledge amount"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:text="Choose Your Logo"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="46dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/userLogoOption3"
+                        android:layout_width="97dp"
+                        android:layout_height="73dp"
+                        android:contentDescription="userLogoOption3"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/user_logo_option3"
+                        tools:layout_editor_absoluteX="24dp"
+                        tools:layout_editor_absoluteY="317dp" />
+
+                    <ImageButton
+                        android:id="@+id/userLogoOption2"
+                        android:layout_width="97dp"
+                        android:layout_height="73dp"
+                        android:contentDescription="userLogoOption2"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/user_logo_option2"
+                        tools:layout_editor_absoluteX="24dp"
+                        tools:layout_editor_absoluteY="317dp" />
+
+                    <ImageButton
+                        android:id="@+id/userLogoOption1"
+                        android:layout_width="97dp"
+                        android:layout_height="73dp"
+                        android:contentDescription="userLogoOption1"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/user_logo_option1"
+                        tools:layout_editor_absoluteX="24dp"
+                        tools:layout_editor_absoluteY="317dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/userLogoOption6"
+                        android:layout_width="97dp"
+                        android:layout_height="73dp"
+                        android:contentDescription="userLogoOption6"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/user_logo_option6"
+                        tools:layout_editor_absoluteX="24dp"
+                        tools:layout_editor_absoluteY="317dp" />
+
+                    <ImageButton
+                        android:id="@+id/userLogoOption4"
+                        android:layout_width="97dp"
+                        android:layout_height="73dp"
+                        android:contentDescription="userLogoOption4"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/user_logo_option4"
+                        tools:layout_editor_absoluteX="24dp"
+                        tools:layout_editor_absoluteY="317dp" />
+
+                    <ImageButton
+                        android:id="@+id/userLogoOption5"
+                        android:layout_width="97dp"
+                        android:layout_height="73dp"
+                        android:contentDescription="userLogoOption5"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/user_logo_option5"
+                        tools:layout_editor_absoluteX="24dp"
+                        tools:layout_editor_absoluteY="317dp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="148dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="148dp"
+                android:text="Submit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="339dp"
+                android:layout_height="99dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="22dp"
+                android:text="By making a pledge you commit to save your CO2 emissions in terms of food footprint. (Note - Name and Municipality fields are optional here. By entering these details you agree to share your information with other users. No other information will be shared.)"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
+    <!--android:background="@drawable/selector_image_button"-->
+
